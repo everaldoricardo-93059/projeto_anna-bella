@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #d2d2c1 url(imagens/fundo.png);
+    /* Obs: se a imagem não carregar a cor de fundo é aplicada.*/
+}
+
+
+main.container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+img#bella {
+    display: flex;
+    width: 900px;
+    height: 388px;
+    margin-top: 15px;
+    box-shadow: inset 10px 10px 10px black;
+}
+
+nav#menu {
+    display: flex;
+    background-color: #D4D3BE;
+    width: 900px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #adab9e;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: space-around;
+    gap: 18px;
+}
+
+nav#menu > a {
+    text-decoration: none;
+    color: #666559;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav#menu a:hover {
+    background-color: #666559;
+    color: white;
+}
+
+h4#texto {
+    color: #666559;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+section.historia {
+    display: flex; 
+    padding: 10px;
+    flex-direction: column;
+    background-color: #FDFBED;
+    width: 900px;
+    text-align: justify;
+
+}
+
+section.historia  img {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+}
+
+
+footer#footer {
+    width: 100vw;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.telefone {
+    color: #666559;
+}
