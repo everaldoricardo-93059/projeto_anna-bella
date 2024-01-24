@@ -30,6 +30,10 @@ img#bella {
     box-shadow: inset 10px 10px 10px black;
 }
 
+img.borda {
+    border: 5px solid #c3c3ae;
+}
+
 nav#menu {
     display: flex;
     background-color: #D4D3BE;
