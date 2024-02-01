@@ -8,88 +8,79 @@
 }
 
 body {
-    background: #d2d2c1 url(imagens/fundo.png);
-    /* Obs: se a imagem não carregar a cor de fundo é aplicada.*/
-}
-
-
-main.container {
-    width: 900px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: url(imagens/fundo.png);
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-
-img#bella {
+  
+main.container {
     display: flex;
-    width: 900px;
-    height: 388px;
-    margin-top: 15px;
-    box-shadow: inset 10px 10px 10px black;
+    flex-direction: column;
+    width: 903px;
 }
 
-img.borda {
-    border: 5px solid #c3c3ae;
+header#foto-bella {
+    margin-top: 10px;
+    height: 389px;
+    border: 1.5px solid #b4b39c;
 }
 
 nav#menu {
     display: flex;
-    background-color: #D4D3BE;
-    width: 900px;
     height: 80px;
     padding: 5px;
-    border: 1px solid #adab9e;
     justify-content: flex-end;
     align-items: flex-end;
-    align-content: space-around;
-    gap: 18px;
+    background-color: #D4D3BE;
+    border: 1px solid #b4b39c;
 }
 
-nav#menu > a {
+nav#menu a {
+    margin: 0px 15px 0px 15px;
+    padding: 8px;
     text-decoration: none;
-    color: #666559;
+    color: #797864;
     font-weight: bold;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 nav#menu a:hover {
-    background-color: #666559;
+    background-color: #706f61;
     color: white;
+    border-radius: 10px;
 }
-
-h4#texto {
-    color: #666559;
-    padding: 2px;
-    margin-bottom: 5px;
-}
-
-section.historia {
-    display: flex; 
+section#texto {
+    background-color: #f0efdb;
     padding: 10px;
-    flex-direction: column;
-    background-color: #FDFBED;
-    width: 900px;
     text-align: justify;
-
+    line-height: 1.5em;
+    color: #797864;
 }
 
-section.historia  img {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+section#texto > h3 {
+    margin: 10px 0px 10px 0px;
 }
 
-
-footer#footer {
+body footer {
     width: 100vw;
     padding: 5px;
+    text-align: center;
     background-color: black;
     color: white;
-    text-align: center;
     font-weight: bold;
 }
 
-p.telefone {
-    color: #666559;
+img.book-annabella {
+    width: 883px;
+    border: 3px solid #afae96;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    margin-bottom: 20px;
+}
+
+img.book-annabella1 {
+    width: 883px;
+    border: 3px solid #afae96;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    margin-bottom: -5px;
 }
